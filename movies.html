@@ -1,0 +1,179 @@
+</head>
+<style>
+    body {
+        background-image: url('minecraft.webp');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: Helvetica;
+    }
+
+    .page-border {
+        border: 10px solid black;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 20px;
+        border-radius: 15px
+    }
+
+    .tab {
+        padding: 10px 20px;
+        border: 1px solid black;
+        background-color: ghostwhite;
+        margin: 0 5px;
+        border-radius: 15px
+    }
+
+    .tab.active {
+        background-color: burlywood;
+    }
+
+    .tab-content {
+        display: none;
+    }
+
+    .tab-content.active {
+        display: block;
+    }
+
+    .myDiv {
+        border: 15px outset burlywood;
+        background-color: ghostwhite;
+        text-align: center;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px;
+        width: 240px;
+
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .myDiv img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border: 3px solid black;
+        border-radius: 15px
+    }
+
+    h1.team-temu {
+        border: 5px solid black;
+        padding: 10px;
+        display: inline-block;
+        background-color: ghostwhite;
+        border-radius: 15px
+    }
+
+    .myDiv iframe {
+        width: 200px;
+        height: 150px;
+        border: 5px solid #333;
+        margin-top: 10px;
+        border-radius: 15px
+    }
+</style>
+
+<body>
+    <div class="page-border">
+        <div class="container">
+            <a href="home.html">
+                <h1 class="team-temu">Team Temu</h1>
+            </a>
+        </div>
+        <div class="tabs">
+            <div class="tab active" onclick="showTab('games')">Games</div>
+            <div class="tab" onclick="showTab('movies')">Movies</div>
+        </div>
+    id="movies" class="tab-content">
+    <div class="container">
+        <div class="myDiv">
+            <a href="https://sflix.to/movie/free-cars-hd-19334">
+                <h2>Cars</h2>
+                <img src="newcarspic.jpeg" alt="Best Movie">
+            </a>
+            <iframe src="https://www.youtube.com/embed/W_H7_tDHFE8" title="Cars Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt4154756/">
+                <h2>Rio</h2>
+                <img src="rio2.png" alt="Bird">
+            </a>
+            <iframe src="https://www.youtube.com/embed/P1GRO31ve5Q" title="Rio Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.tokyvideo.com/video/walle-2008">
+                <h2>Wall-E</h2>
+                <img src="wallE.png" alt="Wall-E">
+            </a>
+            <iframe src="https://www.youtube.com/embed/alIq_wG9FNk" title="Wall-E Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://sflix.to/watch-movie/free-monsters-inc-hd-19514.5349247">
+                <h2>Monster Inc.</h2>
+                <img src="monsters.jpeg" alt="Monster INC.">
+            </a>
+            <iframe src="https://www.youtube.com/embed/6tCxnHCqqxg" title="Monster INC. Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt0110912/">
+                <h2>The Incredibles</h2>
+                <img src="incredibles.png" alt="The Incredibles">
+            </a>
+            <iframe src="https://www.youtube.com/embed/-UaGUdNJdRQ" title="The Incredibles Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt1375666/">
+                <h2>Kung Fu Panda</h2>
+                <img src="kungfupanda.jpeg" alt="Kung Fu Panda">
+            </a>
+            <iframe src="https://www.youtube.com/embed/siLm9q4WIjI?si=PzBbjKsb7teLja-c"
+                title="Kung Fu Panda Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt7286456/">
+                <h2>Finding Nemo</h2>
+                <img src="findingnemo.webp" alt="Finding Nemo">
+            </a>
+            <iframe src="https://www.youtube.com/embed/9oQ628Seb9w?si=TBsyouIoesMe5eYx"
+                title="Finding Nemo Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt0468569/">
+                <h2>The Dark Knight</h2>
+                <img src="darkknight.jpeg" alt="The Dark Knight">
+            </a>
+            <iframe src="https://www.youtube.com/embed/EXeTwQWrcwY" title="The Dark Knight Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt0110357/">
+                <h2>The Lion King</h2>
+                <img src="lionking.jpeg" alt="The Lion King">
+            </a>
+            <iframe src="https://www.youtube.com/embed/4sj1MT05lAA" title="The Lion King Trailer"></iframe>
+        </div>
+        <div class="myDiv">
+            <a href="https://www.imdb.com/title/tt0848228/">
+                <h2>High School Musical 2</h2>
+                <img src="hsm2.webp" alt="High School Musical2">
+            </a>
+            <iframe src="https://www.youtube.com/embed/zL4ZEWYsmuw?si=9GbaL8hCIPlL54pL"
+                title="High School Musical Trailer"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>
